@@ -1,14 +1,14 @@
 //
-//  mainAppDelegate.h
+//  AppDelegate.h
 //  guai
 //
 //  Created by jellt.liu on 14-3-21.
-//  Copyright (c) 2014年 dcz. All rights reserved.
+//  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface mainAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

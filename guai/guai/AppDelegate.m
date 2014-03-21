@@ -1,14 +1,14 @@
 //
-//  mainAppDelegate.m
+//  AppDelegate.m
 //  guai
 //
 //  Created by jellt.liu on 14-3-21.
-//  Copyright (c) 2014年 dcz. All rights reserved.
+//  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
-#import "mainAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation mainAppDelegate
+@implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
@@ -16,10 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 
