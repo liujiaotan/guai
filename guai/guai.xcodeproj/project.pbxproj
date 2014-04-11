@@ -7,139 +7,202 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1860F11218DC237C00976FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1860F11118DC237C00976FFE /* Foundation.framework */; };
-		1860F11418DC237C00976FFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1860F11318DC237C00976FFE /* CoreGraphics.framework */; };
-		1860F11618DC237C00976FFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1860F11518DC237C00976FFE /* UIKit.framework */; };
-		1860F11818DC237C00976FFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1860F11718DC237C00976FFE /* CoreData.framework */; };
-		1860F11E18DC237C00976FFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1860F11C18DC237C00976FFE /* InfoPlist.strings */; };
-		1860F12018DC237C00976FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F11F18DC237C00976FFE /* main.m */; };
-		1860F12418DC237C00976FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F12318DC237C00976FFE /* AppDelegate.m */; };
-		1860F12718DC237C00976FFE /* guai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1860F12518DC237C00976FFE /* guai.xcdatamodeld */; };
-		1860F14818DC249100976FFE /* mainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860F14718DC249100976FFE /* mainStoryBoard.storyboard */; };
-		1860F14C18DC295100976FFE /* tabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F14B18DC295100976FFE /* tabController.m */; };
-		1860F14E18DC2A5600976FFE /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860F14D18DC2A5600976FFE /* images.xcassets */; };
-		1860F15118DC320900976FFE /* messagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F15018DC320900976FFE /* messagesController.m */; };
-		1860F15418DC321A00976FFE /* contactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F15318DC321A00976FFE /* contactsController.m */; };
-		1860F15718DC327200976FFE /* statusesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F15618DC327200976FFE /* statusesController.m */; };
-		1860F15A18DC328F00976FFE /* settingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860F15918DC328F00976FFE /* settingsController.m */; };
+		18338D7218F77E8400DC49FD /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7118F77E8400DC49FD /* WelcomeController.m */; };
+		18338D7518F7822E00DC49FD /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7418F7822E00DC49FD /* LoginController.m */; };
+		18338D7818F7837800DC49FD /* IntroduceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7718F7837800DC49FD /* IntroduceController.m */; };
+		18338D7C18F7871100DC49FD /* FadeIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7B18F7871100DC49FD /* FadeIn.m */; };
+		185452C818E3F70C00AD1CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452C718E3F70C00AD1CC4 /* Foundation.framework */; };
+		185452CA18E3F70C00AD1CC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452C918E3F70C00AD1CC4 /* CoreGraphics.framework */; };
+		185452CC18E3F70C00AD1CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452CB18E3F70C00AD1CC4 /* UIKit.framework */; };
+		185452CE18E3F70C00AD1CC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452CD18E3F70C00AD1CC4 /* CoreData.framework */; };
+		185452D418E3F70C00AD1CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185452D218E3F70C00AD1CC4 /* InfoPlist.strings */; };
+		185452D618E3F70C00AD1CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185452D518E3F70C00AD1CC4 /* main.m */; };
+		185452DA18E3F70C00AD1CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185452D918E3F70C00AD1CC4 /* AppDelegate.m */; };
+		185452DD18E3F70C00AD1CC4 /* guai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 185452DB18E3F70C00AD1CC4 /* guai.xcdatamodeld */; };
+		185452DF18E3F70C00AD1CC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185452DE18E3F70C00AD1CC4 /* Images.xcassets */; };
+		185452E618E3F70C00AD1CC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452E518E3F70C00AD1CC4 /* XCTest.framework */; };
+		185452E718E3F70C00AD1CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452C718E3F70C00AD1CC4 /* Foundation.framework */; };
+		185452E818E3F70C00AD1CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452CB18E3F70C00AD1CC4 /* UIKit.framework */; };
+		185452E918E3F70C00AD1CC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452CD18E3F70C00AD1CC4 /* CoreData.framework */; };
+		185452F118E3F70C00AD1CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185452EF18E3F70C00AD1CC4 /* InfoPlist.strings */; };
+		185452F318E3F70C00AD1CC4 /* guaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185452F218E3F70C00AD1CC4 /* guaiTests.m */; };
+		185452FD18E3F75000AD1CC4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185452FC18E3F75000AD1CC4 /* Storyboard.storyboard */; };
+		1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530318E3F9C800AD1CC4 /* ContactsController.m */; };
+		1854530718E40C7600AD1CC4 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530618E40C7600AD1CC4 /* MainController.m */; };
+		1854530A18E41E1200AD1CC4 /* MessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530918E41E1200AD1CC4 /* MessagesController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		185452EA18E3F70C00AD1CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185452BC18E3F70C00AD1CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185452C318E3F70C00AD1CC4;
+			remoteInfo = guai;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1860F10E18DC237C00976FFE /* guai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guai.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1860F11118DC237C00976FFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1860F11318DC237C00976FFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1860F11518DC237C00976FFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1860F11718DC237C00976FFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1860F11B18DC237C00976FFE /* guai-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guai-Info.plist"; sourceTree = "<group>"; };
-		1860F11D18DC237C00976FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1860F11F18DC237C00976FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1860F12118DC237C00976FFE /* guai-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guai-Prefix.pch"; sourceTree = "<group>"; };
-		1860F12218DC237C00976FFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1860F12318DC237C00976FFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1860F12618DC237C00976FFE /* guai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = guai.xcdatamodel; sourceTree = "<group>"; };
-		1860F14718DC249100976FFE /* mainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainStoryBoard.storyboard; sourceTree = "<group>"; };
-		1860F14A18DC295100976FFE /* tabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabController.h; sourceTree = "<group>"; };
-		1860F14B18DC295100976FFE /* tabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabController.m; sourceTree = "<group>"; };
-		1860F14D18DC2A5600976FFE /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
-		1860F14F18DC320900976FFE /* messagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messagesController.h; sourceTree = "<group>"; };
-		1860F15018DC320900976FFE /* messagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messagesController.m; sourceTree = "<group>"; };
-		1860F15218DC321A00976FFE /* contactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contactsController.h; sourceTree = "<group>"; };
-		1860F15318DC321A00976FFE /* contactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contactsController.m; sourceTree = "<group>"; };
-		1860F15518DC327200976FFE /* statusesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statusesController.h; sourceTree = "<group>"; };
-		1860F15618DC327200976FFE /* statusesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = statusesController.m; sourceTree = "<group>"; };
-		1860F15818DC328F00976FFE /* settingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsController.h; sourceTree = "<group>"; };
-		1860F15918DC328F00976FFE /* settingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsController.m; sourceTree = "<group>"; };
+		18338D7018F77E8400DC49FD /* WelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeController.h; path = controllers/WelcomeController.h; sourceTree = "<group>"; };
+		18338D7118F77E8400DC49FD /* WelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeController.m; path = controllers/WelcomeController.m; sourceTree = "<group>"; };
+		18338D7318F7822E00DC49FD /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = controllers/LoginController.h; sourceTree = "<group>"; };
+		18338D7418F7822E00DC49FD /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = controllers/LoginController.m; sourceTree = "<group>"; };
+		18338D7618F7837800DC49FD /* IntroduceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroduceController.h; path = controllers/IntroduceController.h; sourceTree = "<group>"; };
+		18338D7718F7837800DC49FD /* IntroduceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroduceController.m; path = controllers/IntroduceController.m; sourceTree = "<group>"; };
+		18338D7A18F7871100DC49FD /* FadeIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FadeIn.h; path = segues/FadeIn.h; sourceTree = "<group>"; };
+		18338D7B18F7871100DC49FD /* FadeIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FadeIn.m; path = segues/FadeIn.m; sourceTree = "<group>"; };
+		185452C418E3F70C00AD1CC4 /* guai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185452C718E3F70C00AD1CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		185452C918E3F70C00AD1CC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		185452CB18E3F70C00AD1CC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		185452CD18E3F70C00AD1CC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		185452D118E3F70C00AD1CC4 /* guai-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guai-Info.plist"; sourceTree = "<group>"; };
+		185452D318E3F70C00AD1CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		185452D518E3F70C00AD1CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185452D718E3F70C00AD1CC4 /* guai-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guai-Prefix.pch"; sourceTree = "<group>"; };
+		185452D818E3F70C00AD1CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185452D918E3F70C00AD1CC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185452DC18E3F70C00AD1CC4 /* guai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = guai.xcdatamodel; sourceTree = "<group>"; };
+		185452DE18E3F70C00AD1CC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		185452E418E3F70C00AD1CC4 /* guaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185452E518E3F70C00AD1CC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		185452EE18E3F70C00AD1CC4 /* guaiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guaiTests-Info.plist"; sourceTree = "<group>"; };
+		185452F018E3F70C00AD1CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		185452F218E3F70C00AD1CC4 /* guaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guaiTests.m; sourceTree = "<group>"; };
+		185452FC18E3F75000AD1CC4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1854530218E3F9C800AD1CC4 /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsController.h; path = controllers/ContactsController.h; sourceTree = "<group>"; };
+		1854530318E3F9C800AD1CC4 /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsController.m; path = controllers/ContactsController.m; sourceTree = "<group>"; };
+		1854530518E40C7600AD1CC4 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainController.h; path = controllers/MainController.h; sourceTree = "<group>"; };
+		1854530618E40C7600AD1CC4 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = controllers/MainController.m; sourceTree = "<group>"; };
+		1854530818E41E1200AD1CC4 /* MessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesController.h; path = controllers/MessagesController.h; sourceTree = "<group>"; };
+		1854530918E41E1200AD1CC4 /* MessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesController.m; path = controllers/MessagesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1860F10B18DC237C00976FFE /* Frameworks */ = {
+		185452C118E3F70C00AD1CC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1860F11418DC237C00976FFE /* CoreGraphics.framework in Frameworks */,
-				1860F11818DC237C00976FFE /* CoreData.framework in Frameworks */,
-				1860F11618DC237C00976FFE /* UIKit.framework in Frameworks */,
-				1860F11218DC237C00976FFE /* Foundation.framework in Frameworks */,
+				185452CA18E3F70C00AD1CC4 /* CoreGraphics.framework in Frameworks */,
+				185452CE18E3F70C00AD1CC4 /* CoreData.framework in Frameworks */,
+				185452CC18E3F70C00AD1CC4 /* UIKit.framework in Frameworks */,
+				185452C818E3F70C00AD1CC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185452E118E3F70C00AD1CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185452E618E3F70C00AD1CC4 /* XCTest.framework in Frameworks */,
+				185452E918E3F70C00AD1CC4 /* CoreData.framework in Frameworks */,
+				185452E818E3F70C00AD1CC4 /* UIKit.framework in Frameworks */,
+				185452E718E3F70C00AD1CC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1860F10518DC237C00976FFE = {
+		18338D7918F786B400DC49FD /* segues */ = {
 			isa = PBXGroup;
 			children = (
-				1860F14D18DC2A5600976FFE /* images.xcassets */,
-				1860F14918DC28ED00976FFE /* controllers */,
-				1860F14618DC245300976FFE /* storyBoards */,
-				1860F11918DC237C00976FFE /* guai */,
-				1860F11018DC237C00976FFE /* Frameworks */,
-				1860F10F18DC237C00976FFE /* Products */,
+				18338D7A18F7871100DC49FD /* FadeIn.h */,
+				18338D7B18F7871100DC49FD /* FadeIn.m */,
+			);
+			name = segues;
+			sourceTree = "<group>";
+		};
+		185452BB18E3F70C00AD1CC4 = {
+			isa = PBXGroup;
+			children = (
+				185452CF18E3F70C00AD1CC4 /* guai */,
+				185452EC18E3F70C00AD1CC4 /* guaiTests */,
+				185452C618E3F70C00AD1CC4 /* Frameworks */,
+				185452C518E3F70C00AD1CC4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1860F10F18DC237C00976FFE /* Products */ = {
+		185452C518E3F70C00AD1CC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1860F10E18DC237C00976FFE /* guai.app */,
+				185452C418E3F70C00AD1CC4 /* guai.app */,
+				185452E418E3F70C00AD1CC4 /* guaiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1860F11018DC237C00976FFE /* Frameworks */ = {
+		185452C618E3F70C00AD1CC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1860F11118DC237C00976FFE /* Foundation.framework */,
-				1860F11318DC237C00976FFE /* CoreGraphics.framework */,
-				1860F11518DC237C00976FFE /* UIKit.framework */,
-				1860F11718DC237C00976FFE /* CoreData.framework */,
+				185452C718E3F70C00AD1CC4 /* Foundation.framework */,
+				185452C918E3F70C00AD1CC4 /* CoreGraphics.framework */,
+				185452CB18E3F70C00AD1CC4 /* UIKit.framework */,
+				185452CD18E3F70C00AD1CC4 /* CoreData.framework */,
+				185452E518E3F70C00AD1CC4 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1860F11918DC237C00976FFE /* guai */ = {
+		185452CF18E3F70C00AD1CC4 /* guai */ = {
 			isa = PBXGroup;
 			children = (
-				1860F12218DC237C00976FFE /* AppDelegate.h */,
-				1860F12318DC237C00976FFE /* AppDelegate.m */,
-				1860F12518DC237C00976FFE /* guai.xcdatamodeld */,
-				1860F11A18DC237C00976FFE /* Supporting Files */,
+				18338D7918F786B400DC49FD /* segues */,
+				1854530118E3F97200AD1CC4 /* controllers */,
+				185452D818E3F70C00AD1CC4 /* AppDelegate.h */,
+				185452D918E3F70C00AD1CC4 /* AppDelegate.m */,
+				185452DE18E3F70C00AD1CC4 /* Images.xcassets */,
+				185452DB18E3F70C00AD1CC4 /* guai.xcdatamodeld */,
+				185452D018E3F70C00AD1CC4 /* Supporting Files */,
+				185452FC18E3F75000AD1CC4 /* Storyboard.storyboard */,
 			);
 			path = guai;
 			sourceTree = "<group>";
 		};
-		1860F11A18DC237C00976FFE /* Supporting Files */ = {
+		185452D018E3F70C00AD1CC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1860F11B18DC237C00976FFE /* guai-Info.plist */,
-				1860F11C18DC237C00976FFE /* InfoPlist.strings */,
-				1860F11F18DC237C00976FFE /* main.m */,
-				1860F12118DC237C00976FFE /* guai-Prefix.pch */,
+				185452D118E3F70C00AD1CC4 /* guai-Info.plist */,
+				185452D218E3F70C00AD1CC4 /* InfoPlist.strings */,
+				185452D518E3F70C00AD1CC4 /* main.m */,
+				185452D718E3F70C00AD1CC4 /* guai-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1860F14618DC245300976FFE /* storyBoards */ = {
+		185452EC18E3F70C00AD1CC4 /* guaiTests */ = {
 			isa = PBXGroup;
 			children = (
-				1860F14718DC249100976FFE /* mainStoryBoard.storyboard */,
+				185452F218E3F70C00AD1CC4 /* guaiTests.m */,
+				185452ED18E3F70C00AD1CC4 /* Supporting Files */,
 			);
-			name = storyBoards;
+			path = guaiTests;
 			sourceTree = "<group>";
 		};
-		1860F14918DC28ED00976FFE /* controllers */ = {
+		185452ED18E3F70C00AD1CC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1860F14A18DC295100976FFE /* tabController.h */,
-				1860F14B18DC295100976FFE /* tabController.m */,
-				1860F14F18DC320900976FFE /* messagesController.h */,
-				1860F15018DC320900976FFE /* messagesController.m */,
-				1860F15218DC321A00976FFE /* contactsController.h */,
-				1860F15318DC321A00976FFE /* contactsController.m */,
-				1860F15518DC327200976FFE /* statusesController.h */,
-				1860F15618DC327200976FFE /* statusesController.m */,
-				1860F15818DC328F00976FFE /* settingsController.h */,
-				1860F15918DC328F00976FFE /* settingsController.m */,
+				185452EE18E3F70C00AD1CC4 /* guaiTests-Info.plist */,
+				185452EF18E3F70C00AD1CC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1854530118E3F97200AD1CC4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1854530218E3F9C800AD1CC4 /* ContactsController.h */,
+				1854530318E3F9C800AD1CC4 /* ContactsController.m */,
+				1854530518E40C7600AD1CC4 /* MainController.h */,
+				1854530618E40C7600AD1CC4 /* MainController.m */,
+				1854530818E41E1200AD1CC4 /* MessagesController.h */,
+				1854530918E41E1200AD1CC4 /* MessagesController.m */,
+				18338D7018F77E8400DC49FD /* WelcomeController.h */,
+				18338D7118F77E8400DC49FD /* WelcomeController.m */,
+				18338D7318F7822E00DC49FD /* LoginController.h */,
+				18338D7418F7822E00DC49FD /* LoginController.m */,
+				18338D7618F7837800DC49FD /* IntroduceController.h */,
+				18338D7718F7837800DC49FD /* IntroduceController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -147,13 +210,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1860F10D18DC237C00976FFE /* guai */ = {
+		185452C318E3F70C00AD1CC4 /* guai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1860F14018DC237C00976FFE /* Build configuration list for PBXNativeTarget "guai" */;
+			buildConfigurationList = 185452F618E3F70C00AD1CC4 /* Build configuration list for PBXNativeTarget "guai" */;
 			buildPhases = (
-				1860F10A18DC237C00976FFE /* Sources */,
-				1860F10B18DC237C00976FFE /* Frameworks */,
-				1860F10C18DC237C00976FFE /* Resources */,
+				185452C018E3F70C00AD1CC4 /* Sources */,
+				185452C118E3F70C00AD1CC4 /* Frameworks */,
+				185452C218E3F70C00AD1CC4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -161,71 +224,129 @@
 			);
 			name = guai;
 			productName = guai;
-			productReference = 1860F10E18DC237C00976FFE /* guai.app */;
+			productReference = 185452C418E3F70C00AD1CC4 /* guai.app */;
 			productType = "com.apple.product-type.application";
+		};
+		185452E318E3F70C00AD1CC4 /* guaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185452F918E3F70C00AD1CC4 /* Build configuration list for PBXNativeTarget "guaiTests" */;
+			buildPhases = (
+				185452E018E3F70C00AD1CC4 /* Sources */,
+				185452E118E3F70C00AD1CC4 /* Frameworks */,
+				185452E218E3F70C00AD1CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185452EB18E3F70C00AD1CC4 /* PBXTargetDependency */,
+			);
+			name = guaiTests;
+			productName = guaiTests;
+			productReference = 185452E418E3F70C00AD1CC4 /* guaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1860F10618DC237C00976FFE /* Project object */ = {
+		185452BC18E3F70C00AD1CC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = com.dcz;
+				TargetAttributes = {
+					185452E318E3F70C00AD1CC4 = {
+						TestTargetID = 185452C318E3F70C00AD1CC4;
+					};
+				};
 			};
-			buildConfigurationList = 1860F10918DC237C00976FFE /* Build configuration list for PBXProject "guai" */;
+			buildConfigurationList = 185452BF18E3F70C00AD1CC4 /* Build configuration list for PBXProject "guai" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1860F10518DC237C00976FFE;
-			productRefGroup = 1860F10F18DC237C00976FFE /* Products */;
+			mainGroup = 185452BB18E3F70C00AD1CC4;
+			productRefGroup = 185452C518E3F70C00AD1CC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1860F10D18DC237C00976FFE /* guai */,
+				185452C318E3F70C00AD1CC4 /* guai */,
+				185452E318E3F70C00AD1CC4 /* guaiTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1860F10C18DC237C00976FFE /* Resources */ = {
+		185452C218E3F70C00AD1CC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1860F14E18DC2A5600976FFE /* images.xcassets in Resources */,
-				1860F11E18DC237C00976FFE /* InfoPlist.strings in Resources */,
-				1860F14818DC249100976FFE /* mainStoryBoard.storyboard in Resources */,
+				185452D418E3F70C00AD1CC4 /* InfoPlist.strings in Resources */,
+				185452DF18E3F70C00AD1CC4 /* Images.xcassets in Resources */,
+				185452FD18E3F75000AD1CC4 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185452E218E3F70C00AD1CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185452F118E3F70C00AD1CC4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1860F10A18DC237C00976FFE /* Sources */ = {
+		185452C018E3F70C00AD1CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1860F15718DC327200976FFE /* statusesController.m in Sources */,
-				1860F12418DC237C00976FFE /* AppDelegate.m in Sources */,
-				1860F14C18DC295100976FFE /* tabController.m in Sources */,
-				1860F15418DC321A00976FFE /* contactsController.m in Sources */,
-				1860F15A18DC328F00976FFE /* settingsController.m in Sources */,
-				1860F12718DC237C00976FFE /* guai.xcdatamodeld in Sources */,
-				1860F12018DC237C00976FFE /* main.m in Sources */,
-				1860F15118DC320900976FFE /* messagesController.m in Sources */,
+				18338D7218F77E8400DC49FD /* WelcomeController.m in Sources */,
+				18338D7518F7822E00DC49FD /* LoginController.m in Sources */,
+				185452DA18E3F70C00AD1CC4 /* AppDelegate.m in Sources */,
+				1854530A18E41E1200AD1CC4 /* MessagesController.m in Sources */,
+				18338D7C18F7871100DC49FD /* FadeIn.m in Sources */,
+				18338D7818F7837800DC49FD /* IntroduceController.m in Sources */,
+				185452DD18E3F70C00AD1CC4 /* guai.xcdatamodeld in Sources */,
+				1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */,
+				1854530718E40C7600AD1CC4 /* MainController.m in Sources */,
+				185452D618E3F70C00AD1CC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185452E018E3F70C00AD1CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185452F318E3F70C00AD1CC4 /* guaiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		185452EB18E3F70C00AD1CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185452C318E3F70C00AD1CC4 /* guai */;
+			targetProxy = 185452EA18E3F70C00AD1CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		1860F11C18DC237C00976FFE /* InfoPlist.strings */ = {
+		185452D218E3F70C00AD1CC4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1860F11D18DC237C00976FFE /* en */,
+				185452D318E3F70C00AD1CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		185452EF18E3F70C00AD1CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185452F018E3F70C00AD1CC4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -233,7 +354,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1860F13E18DC237C00976FFE /* Debug */ = {
+		185452F418E3F70C00AD1CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		1860F13F18DC237C00976FFE /* Release */ = {
+		185452F518E3F70C00AD1CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,12 +424,11 @@
 			};
 			name = Release;
 		};
-		1860F14118DC237C00976FFE /* Debug */ = {
+		185452F718E3F70C00AD1CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "guai/guai-Prefix.pch";
 				INFOPLIST_FILE = "guai/guai-Info.plist";
@@ -317,12 +437,11 @@
 			};
 			name = Debug;
 		};
-		1860F14218DC237C00976FFE /* Release */ = {
+		185452F818E3F70C00AD1CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "guai/guai-Prefix.pch";
 				INFOPLIST_FILE = "guai/guai-Info.plist";
@@ -331,40 +450,90 @@
 			};
 			name = Release;
 		};
+		185452FA18E3F70C00AD1CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/guai.app/guai";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guai/guai-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "guaiTests/guaiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		185452FB18E3F70C00AD1CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/guai.app/guai";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guai/guai-Prefix.pch";
+				INFOPLIST_FILE = "guaiTests/guaiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1860F10918DC237C00976FFE /* Build configuration list for PBXProject "guai" */ = {
+		185452BF18E3F70C00AD1CC4 /* Build configuration list for PBXProject "guai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1860F13E18DC237C00976FFE /* Debug */,
-				1860F13F18DC237C00976FFE /* Release */,
+				185452F418E3F70C00AD1CC4 /* Debug */,
+				185452F518E3F70C00AD1CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1860F14018DC237C00976FFE /* Build configuration list for PBXNativeTarget "guai" */ = {
+		185452F618E3F70C00AD1CC4 /* Build configuration list for PBXNativeTarget "guai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1860F14118DC237C00976FFE /* Debug */,
-				1860F14218DC237C00976FFE /* Release */,
+				185452F718E3F70C00AD1CC4 /* Debug */,
+				185452F818E3F70C00AD1CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185452F918E3F70C00AD1CC4 /* Build configuration list for PBXNativeTarget "guaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185452FA18E3F70C00AD1CC4 /* Debug */,
+				185452FB18E3F70C00AD1CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1860F12518DC237C00976FFE /* guai.xcdatamodeld */ = {
+		185452DB18E3F70C00AD1CC4 /* guai.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1860F12618DC237C00976FFE /* guai.xcdatamodel */,
+				185452DC18E3F70C00AD1CC4 /* guai.xcdatamodel */,
 			);
-			currentVersion = 1860F12618DC237C00976FFE /* guai.xcdatamodel */;
+			currentVersion = 185452DC18E3F70C00AD1CC4 /* guai.xcdatamodel */;
 			path = guai.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1860F10618DC237C00976FFE /* Project object */;
+	rootObject = 185452BC18E3F70C00AD1CC4 /* Project object */;
 }
