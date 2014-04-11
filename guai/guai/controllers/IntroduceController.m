@@ -1,18 +1,18 @@
 //
-//  settingsController.m
+//  IntroduceController.m
 //  guai
 //
-//  Created by jellt.liu on 14-3-21.
+//  Created by jellt.liu on 14-4-11.
 //  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
-#import "settingsController.h"
+#import "IntroduceController.h"
 
-@interface settingsController ()
+@interface IntroduceController ()
 
 @end
 
-@implementation settingsController
+@implementation IntroduceController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

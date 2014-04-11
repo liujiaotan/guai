@@ -1,18 +1,18 @@
 //
-//  statusesController.m
+//  WelcomeController.m
 //  guai
 //
-//  Created by jellt.liu on 14-3-21.
+//  Created by jellt.liu on 14-4-11.
 //  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
-#import "statusesController.h"
+#import "WelcomeController.h"
 
-@interface statusesController ()
-
+@interface WelcomeController ()
+@property (weak, nonatomic) IBOutlet UIButton *toMain;
 @end
 
-@implementation statusesController
+@implementation WelcomeController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +33,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)toMainClick:(id)sender {
+    
+    [self performSegueWithIdentifier:@"ToMain" sender:@"NIHAO"];
 }
 
 /*

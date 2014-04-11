@@ -1,18 +1,18 @@
 //
-//  contactsController.m
+//  LoginController.m
 //  guai
 //
-//  Created by jellt.liu on 14-3-21.
+//  Created by jellt.liu on 14-4-11.
 //  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
-#import "contactsController.h"
+#import "LoginController.h"
 
-@interface contactsController ()
+@interface LoginController ()
 
 @end
 
-@implementation contactsController
+@implementation LoginController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

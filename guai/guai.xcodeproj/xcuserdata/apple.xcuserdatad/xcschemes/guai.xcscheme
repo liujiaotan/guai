@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1860F10D18DC237C00976FFE"
+               BlueprintIdentifier = "185452C318E3F70C00AD1CC4"
                BuildableName = "guai.app"
                BlueprintName = "guai"
                ReferencedContainer = "container:guai.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1860F12D18DC237C00976FFE"
+               BlueprintIdentifier = "185452E318E3F70C00AD1CC4"
                BuildableName = "guaiTests.xctest"
                BlueprintName = "guaiTests"
                ReferencedContainer = "container:guai.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1860F10D18DC237C00976FFE"
+            BlueprintIdentifier = "185452C318E3F70C00AD1CC4"
             BuildableName = "guai.app"
             BlueprintName = "guai"
             ReferencedContainer = "container:guai.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1860F10D18DC237C00976FFE"
+            BlueprintIdentifier = "185452C318E3F70C00AD1CC4"
             BuildableName = "guai.app"
             BlueprintName = "guai"
             ReferencedContainer = "container:guai.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1860F10D18DC237C00976FFE"
+            BlueprintIdentifier = "185452C318E3F70C00AD1CC4"
             BuildableName = "guai.app"
             BlueprintName = "guai"
             ReferencedContainer = "container:guai.xcodeproj">

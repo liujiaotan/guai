@@ -1,18 +1,18 @@
 //
-//  messagesController.m
+//  MainController.m
 //  guai
 //
-//  Created by jellt.liu on 14-3-21.
+//  Created by jellt.liu on 14-3-27.
 //  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
-#import "messagesController.h"
+#import "MainController.h"
 
-@interface messagesController ()
+@interface MainController ()
 
 @end
 
-@implementation messagesController
+@implementation MainController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
     // Do any additional setup after loading the view.
 }
 
@@ -33,6 +34,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
+{
+    self.title = item.title;
 }
 
 /*
