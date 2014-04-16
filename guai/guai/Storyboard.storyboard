@@ -69,10 +69,59 @@
             </objects>
             <point key="canvasLocation" x="1626" y="1176"/>
         </scene>
-        <!--Contacts Controller - Contacts-->
+        <!--Table View Controller - 我-->
+        <scene sceneID="FGK-Le-DFG">
+            <objects>
+                <tableViewController id="XEW-WI-rvq" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="tbN-md-yhN">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="property" id="OT3-hR-kpf">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OT3-hR-kpf" id="sQW-QD-ioX">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="XEW-WI-rvq" id="u0m-M2-dIU"/>
+                            <outlet property="delegate" destination="XEW-WI-rvq" id="zEq-QI-DtZ"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="我" image="Profile" id="IGv-BI-cIP">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-5"/>
+                    </tabBarItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TrB-0J-frj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1626" y="1764"/>
+        </scene>
+        <!--Messages Controller - 消息-->
+        <scene sceneID="JKa-Nj-yVI">
+            <objects>
+                <viewController id="hEC-nu-YfR" customClass="MessagesController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ScA-NX-FSm">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="消息" image="Messsages" id="aaZ-cu-Ntc">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-5"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="02A-Ua-mRV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1624" y="20"/>
+        </scene>
+        <!--Contacts Controller - 联系人-->
         <scene sceneID="YpK-Ie-eUo">
             <objects>
-                <viewController storyboardIdentifier="Contacts" title="Contacts" id="5uX-bl-y3P" customClass="ContactsController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Contacts" id="5uX-bl-y3P" customClass="ContactsController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9F0-MM-UDa">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,36 +220,21 @@
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="hEC-nu-YfR" kind="relationship" relationship="viewControllers" id="Juj-Au-EpL"/>
                         <segue destination="5uX-bl-y3P" kind="relationship" relationship="viewControllers" id="w2u-gh-XdU"/>
-                        <segue destination="us3-eq-UOM" kind="relationship" relationship="viewControllers" id="bV7-DA-Ums"/>
                         <segue destination="b1N-vc-j0K" kind="relationship" relationship="viewControllers" id="FOy-mM-FSk"/>
+                        <segue destination="XEW-WI-rvq" kind="relationship" relationship="viewControllers" id="vAw-pH-z0D"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6z-w3-lLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1108" y="298"/>
         </scene>
-        <!--Messages Controller - Messages-->
-        <scene sceneID="GpD-IF-eaB">
-            <objects>
-                <viewController title="Messages" id="us3-eq-UOM" customClass="MessagesController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Jry-mS-rpk">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="消息" image="Messsages" id="tIM-uM-o04">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-5"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tjx-1I-6ok" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1626" y="22"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Contacts" width="25" height="20"/>
         <image name="Messsages" width="25" height="21"/>
+        <image name="Profile" width="22" height="21"/>
         <image name="Status" width="23" height="22"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
