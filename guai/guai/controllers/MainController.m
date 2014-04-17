@@ -26,8 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     // Do any additional setup after loading the view.
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    self.title = self.tabBar.selectedItem.title;
 }
 
 - (void)didReceiveMemoryWarning

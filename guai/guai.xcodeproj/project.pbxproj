@@ -30,6 +30,7 @@
 		1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530318E3F9C800AD1CC4 /* ContactsController.m */; };
 		1854530718E40C7600AD1CC4 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530618E40C7600AD1CC4 /* MainController.m */; };
 		1854530A18E41E1200AD1CC4 /* MessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530918E41E1200AD1CC4 /* MessagesController.m */; };
+		18BC5C8B18FFAB37004800E0 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC5C8A18FFAB37004800E0 /* MessageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		1854530618E40C7600AD1CC4 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = controllers/MainController.m; sourceTree = "<group>"; };
 		1854530818E41E1200AD1CC4 /* MessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesController.h; path = controllers/MessagesController.h; sourceTree = "<group>"; };
 		1854530918E41E1200AD1CC4 /* MessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesController.m; path = controllers/MessagesController.m; sourceTree = "<group>"; };
+		18BC5C8918FFAB37004800E0 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageCell.h; path = cells/MessageCell.h; sourceTree = "<group>"; };
+		18BC5C8A18FFAB37004800E0 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageCell.m; path = cells/MessageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,7 @@
 		185452CF18E3F70C00AD1CC4 /* guai */ = {
 			isa = PBXGroup;
 			children = (
+				18BC5C8818FFAB01004800E0 /* cells */,
 				18338D7918F786B400DC49FD /* segues */,
 				1854530118E3F97200AD1CC4 /* controllers */,
 				185452D818E3F70C00AD1CC4 /* AppDelegate.h */,
@@ -205,6 +209,15 @@
 				18338D7718F7837800DC49FD /* IntroduceController.m */,
 			);
 			name = controllers;
+			sourceTree = "<group>";
+		};
+		18BC5C8818FFAB01004800E0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				18BC5C8918FFAB37004800E0 /* MessageCell.h */,
+				18BC5C8A18FFAB37004800E0 /* MessageCell.m */,
+			);
+			name = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +324,7 @@
 				18338D7818F7837800DC49FD /* IntroduceController.m in Sources */,
 				185452DD18E3F70C00AD1CC4 /* guai.xcdatamodeld in Sources */,
 				1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */,
+				18BC5C8B18FFAB37004800E0 /* MessageCell.m in Sources */,
 				1854530718E40C7600AD1CC4 /* MainController.m in Sources */,
 				185452D618E3F70C00AD1CC4 /* main.m in Sources */,
 			);

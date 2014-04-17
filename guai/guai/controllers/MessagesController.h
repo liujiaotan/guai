@@ -9,4 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MessagesController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *list;
 @end
