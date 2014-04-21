@@ -11,6 +11,12 @@
 		18338D7518F7822E00DC49FD /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7418F7822E00DC49FD /* LoginController.m */; };
 		18338D7818F7837800DC49FD /* IntroduceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7718F7837800DC49FD /* IntroduceController.m */; };
 		18338D7C18F7871100DC49FD /* FadeIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338D7B18F7871100DC49FD /* FadeIn.m */; };
+		184EB4791904C2D200807C94 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184EB4781904C2D200807C94 /* settings.plist */; };
+		184EB47C1904C32900807C94 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB47B1904C32900807C94 /* ContactCell.m */; };
+		184EB47F1904D13300807C94 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB47E1904D13300807C94 /* SettingsController.m */; };
+		184EB4821904E5EC00807C94 /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4811904E5EC00807C94 /* ProfileCell.m */; };
+		184EB4851904E60D00807C94 /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4841904E60D00807C94 /* SettingCell.m */; };
+		184EB48B1904FDB100807C94 /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB48A1904FDB100807C94 /* ProfileController.m */; };
 		185452C818E3F70C00AD1CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452C718E3F70C00AD1CC4 /* Foundation.framework */; };
 		185452CA18E3F70C00AD1CC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452C918E3F70C00AD1CC4 /* CoreGraphics.framework */; };
 		185452CC18E3F70C00AD1CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185452CB18E3F70C00AD1CC4 /* UIKit.framework */; };
@@ -52,6 +58,17 @@
 		18338D7718F7837800DC49FD /* IntroduceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroduceController.m; path = controllers/IntroduceController.m; sourceTree = "<group>"; };
 		18338D7A18F7871100DC49FD /* FadeIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FadeIn.h; path = segues/FadeIn.h; sourceTree = "<group>"; };
 		18338D7B18F7871100DC49FD /* FadeIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FadeIn.m; path = segues/FadeIn.m; sourceTree = "<group>"; };
+		184EB4781904C2D200807C94 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = settings.plist; path = propertyLists/settings.plist; sourceTree = "<group>"; };
+		184EB47A1904C32900807C94 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactCell.h; path = cells/ContactCell.h; sourceTree = "<group>"; };
+		184EB47B1904C32900807C94 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactCell.m; path = cells/ContactCell.m; sourceTree = "<group>"; };
+		184EB47D1904D13300807C94 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsController.h; path = controllers/SettingsController.h; sourceTree = "<group>"; };
+		184EB47E1904D13300807C94 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsController.m; path = controllers/SettingsController.m; sourceTree = "<group>"; };
+		184EB4801904E5EC00807C94 /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileCell.h; path = cells/ProfileCell.h; sourceTree = "<group>"; };
+		184EB4811904E5EC00807C94 /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileCell.m; path = cells/ProfileCell.m; sourceTree = "<group>"; };
+		184EB4831904E60D00807C94 /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingCell.h; path = cells/SettingCell.h; sourceTree = "<group>"; };
+		184EB4841904E60D00807C94 /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingCell.m; path = cells/SettingCell.m; sourceTree = "<group>"; };
+		184EB4891904FDB100807C94 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileController.h; path = controllers/ProfileController.h; sourceTree = "<group>"; };
+		184EB48A1904FDB100807C94 /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileController.m; path = controllers/ProfileController.m; sourceTree = "<group>"; };
 		185452C418E3F70C00AD1CC4 /* guai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185452C718E3F70C00AD1CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		185452C918E3F70C00AD1CC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +133,14 @@
 			name = segues;
 			sourceTree = "<group>";
 		};
+		184EB4771904C27100807C94 /* propertyLists */ = {
+			isa = PBXGroup;
+			children = (
+				184EB4781904C2D200807C94 /* settings.plist */,
+			);
+			name = propertyLists;
+			sourceTree = "<group>";
+		};
 		185452BB18E3F70C00AD1CC4 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +175,7 @@
 		185452CF18E3F70C00AD1CC4 /* guai */ = {
 			isa = PBXGroup;
 			children = (
+				184EB4771904C27100807C94 /* propertyLists */,
 				18BC5C8818FFAB01004800E0 /* cells */,
 				18338D7918F786B400DC49FD /* segues */,
 				1854530118E3F97200AD1CC4 /* controllers */,
@@ -207,6 +233,10 @@
 				18338D7418F7822E00DC49FD /* LoginController.m */,
 				18338D7618F7837800DC49FD /* IntroduceController.h */,
 				18338D7718F7837800DC49FD /* IntroduceController.m */,
+				184EB47D1904D13300807C94 /* SettingsController.h */,
+				184EB47E1904D13300807C94 /* SettingsController.m */,
+				184EB4891904FDB100807C94 /* ProfileController.h */,
+				184EB48A1904FDB100807C94 /* ProfileController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -216,6 +246,12 @@
 			children = (
 				18BC5C8918FFAB37004800E0 /* MessageCell.h */,
 				18BC5C8A18FFAB37004800E0 /* MessageCell.m */,
+				184EB47A1904C32900807C94 /* ContactCell.h */,
+				184EB47B1904C32900807C94 /* ContactCell.m */,
+				184EB4801904E5EC00807C94 /* ProfileCell.h */,
+				184EB4811904E5EC00807C94 /* ProfileCell.m */,
+				184EB4831904E60D00807C94 /* SettingCell.h */,
+				184EB4841904E60D00807C94 /* SettingCell.m */,
 			);
 			name = cells;
 			sourceTree = "<group>";
@@ -296,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185452D418E3F70C00AD1CC4 /* InfoPlist.strings in Resources */,
+				184EB4791904C2D200807C94 /* settings.plist in Resources */,
 				185452DF18E3F70C00AD1CC4 /* Images.xcassets in Resources */,
 				185452FD18E3F75000AD1CC4 /* Storyboard.storyboard in Resources */,
 			);
@@ -316,14 +353,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184EB47C1904C32900807C94 /* ContactCell.m in Sources */,
 				18338D7218F77E8400DC49FD /* WelcomeController.m in Sources */,
 				18338D7518F7822E00DC49FD /* LoginController.m in Sources */,
+				184EB48B1904FDB100807C94 /* ProfileController.m in Sources */,
 				185452DA18E3F70C00AD1CC4 /* AppDelegate.m in Sources */,
 				1854530A18E41E1200AD1CC4 /* MessagesController.m in Sources */,
 				18338D7C18F7871100DC49FD /* FadeIn.m in Sources */,
 				18338D7818F7837800DC49FD /* IntroduceController.m in Sources */,
 				185452DD18E3F70C00AD1CC4 /* guai.xcdatamodeld in Sources */,
+				184EB4851904E60D00807C94 /* SettingCell.m in Sources */,
 				1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */,
+				184EB4821904E5EC00807C94 /* ProfileCell.m in Sources */,
+				184EB47F1904D13300807C94 /* SettingsController.m in Sources */,
 				18BC5C8B18FFAB37004800E0 /* MessageCell.m in Sources */,
 				1854530718E40C7600AD1CC4 /* MainController.m in Sources */,
 				185452D618E3F70C00AD1CC4 /* main.m in Sources */,

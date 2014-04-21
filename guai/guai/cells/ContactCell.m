@@ -1,19 +1,15 @@
 //
-//  MessageCell.m
+//  ContactCell.m
 //  guai
 //
-//  Created by jellt.liu on 14-4-17.
+//  Created by jellt.liu on 14-4-21.
 //  Copyright (c) 2014年 com.dcz. All rights reserved.
 //
 
-#import "MessageCell.h"
-@interface MessageCell()
-{
-    
-}
+#import "ContactCell.h"
 
-@end
-@implementation MessageCell
+@implementation ContactCell
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -33,7 +29,6 @@
     //[super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
-    
 }
 
 @end

@@ -7,9 +7,12 @@
 //
 
 #import "ContactsController.h"
+#import "ContactCell.h"
 
 @interface ContactsController ()
 @property (strong,nonatomic) UIBarButtonItem *addButton;
+@property (strong, nonatomic) IBOutlet UITableView *list;
+
 @end
 
 @implementation ContactsController
@@ -22,7 +25,7 @@
     //self.navigationItem.leftBarButtonItem = self.editButtonItem;
     [self.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName, nil,nil] forState:UIControlStateHighlighted];
 //    [self.tabBarItem setImage:[UIImage imageNamed:@"Contacts_normal"]];
-
+    self.list.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,22 +39,20 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 0;
+    return 2;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    static NSString *CellIdentifier = @"Contact";
+    ContactCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     return cell;
 }
 
