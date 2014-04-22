@@ -36,6 +36,8 @@
 		1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530318E3F9C800AD1CC4 /* ContactsController.m */; };
 		1854530718E40C7600AD1CC4 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530618E40C7600AD1CC4 /* MainController.m */; };
 		1854530A18E41E1200AD1CC4 /* MessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854530918E41E1200AD1CC4 /* MessagesController.m */; };
+		1863490819060B9300A777C3 /* ConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863490719060B9300A777C3 /* ConfigController.m */; };
+		1863490B19060C2800A777C3 /* StatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863490A19060C2800A777C3 /* StatusController.m */; };
 		18BC5C8B18FFAB37004800E0 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC5C8A18FFAB37004800E0 /* MessageCell.m */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,10 @@
 		1854530618E40C7600AD1CC4 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = controllers/MainController.m; sourceTree = "<group>"; };
 		1854530818E41E1200AD1CC4 /* MessagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesController.h; path = controllers/MessagesController.h; sourceTree = "<group>"; };
 		1854530918E41E1200AD1CC4 /* MessagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesController.m; path = controllers/MessagesController.m; sourceTree = "<group>"; };
+		1863490619060B9300A777C3 /* ConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigController.h; path = controllers/ConfigController.h; sourceTree = "<group>"; };
+		1863490719060B9300A777C3 /* ConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigController.m; path = controllers/ConfigController.m; sourceTree = "<group>"; };
+		1863490919060C2800A777C3 /* StatusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusController.h; path = controllers/StatusController.h; sourceTree = "<group>"; };
+		1863490A19060C2800A777C3 /* StatusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusController.m; path = controllers/StatusController.m; sourceTree = "<group>"; };
 		18BC5C8918FFAB37004800E0 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageCell.h; path = cells/MessageCell.h; sourceTree = "<group>"; };
 		18BC5C8A18FFAB37004800E0 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageCell.m; path = cells/MessageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,6 +243,10 @@
 				184EB47E1904D13300807C94 /* SettingsController.m */,
 				184EB4891904FDB100807C94 /* ProfileController.h */,
 				184EB48A1904FDB100807C94 /* ProfileController.m */,
+				1863490619060B9300A777C3 /* ConfigController.h */,
+				1863490719060B9300A777C3 /* ConfigController.m */,
+				1863490919060C2800A777C3 /* StatusController.h */,
+				1863490A19060C2800A777C3 /* StatusController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -366,8 +376,10 @@
 				1854530418E3F9C800AD1CC4 /* ContactsController.m in Sources */,
 				184EB4821904E5EC00807C94 /* ProfileCell.m in Sources */,
 				184EB47F1904D13300807C94 /* SettingsController.m in Sources */,
+				1863490B19060C2800A777C3 /* StatusController.m in Sources */,
 				18BC5C8B18FFAB37004800E0 /* MessageCell.m in Sources */,
 				1854530718E40C7600AD1CC4 /* MainController.m in Sources */,
+				1863490819060B9300A777C3 /* ConfigController.m in Sources */,
 				185452D618E3F70C00AD1CC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

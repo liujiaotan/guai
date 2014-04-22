@@ -26,18 +26,6 @@
 			<array>
 				<dict>
 					<key>icon</key>
-					<string>Album</string>
-					<key>key</key>
-					<string>album</string>
-					<key>label</key>
-					<string>我的相册</string>
-					<key>class</key>
-					<string>SettingCell</string>
-					<key>segue</key>
-					<string>Album</string>
-				</dict>
-				<dict>
-					<key>icon</key>
 					<string>Setting</string>
 					<key>key</key>
 					<string>setting</string>
